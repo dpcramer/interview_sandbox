@@ -4,7 +4,7 @@ from interview_sandbox.main import greet, main
 
 
 def test_greet_default():
-    assert greet() == "Hello, Joe!"
+    assert greet() == "Hello, World!"
 
 
 def test_greet_name():

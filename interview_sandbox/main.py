@@ -3,7 +3,7 @@
 import sys
 
 
-def greet(name: str = "Joe") -> str:
+def greet(name: str = "World") -> str:
     """Return a greeting for the given name."""
     name = name.strip()
     if not name:
