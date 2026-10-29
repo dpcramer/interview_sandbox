@@ -1,0 +1,17 @@
+# Direct dependencies. Edit this file, then run `make update` to refresh requirements.txt.
+
+# Data
+pandas
+numpy
+polars
+pyarrow
+duckdb
+sqlalchemy
+
+# Utilities
+requests
+python-dotenv
+
+# Dev
+pytest
+ruff

@@ -1,0 +1,32 @@
+# Virtual environments
+default_venv/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tools
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Local data files
+*.db
+*.sqlite
+*.parquet
+data/
