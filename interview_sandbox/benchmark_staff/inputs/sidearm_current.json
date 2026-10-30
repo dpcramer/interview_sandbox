@@ -1,0 +1,22 @@
+{
+  "school": {
+    "name": "Indiana",
+    "provider": "sidearm",
+    "url": "https://iu.example/staff"
+  },
+  "updated_at": "2026-10-28T08:00:00Z",
+  "staff": [
+    {
+      "full_name": "Taylor Morgan",
+      "job_title": "Assoc. AD / Compliance",
+      "email_address": "TMorgan@IU.edu",
+      "telephone": "(812) 555-0101"
+    },
+    {
+      "full_name": "Riley Chen",
+      "job_title": "Assistant Director of Creative Media",
+      "email_address": null,
+      "telephone": "812.555.0177"
+    }
+  ]
+}
