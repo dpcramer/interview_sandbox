@@ -9,7 +9,6 @@ make install   # create default_venv and install pinned packages
 make test      # run the tests (make tests also works)
 make lint      # check code with ruff
 make format    # format code with ruff
-make run       # print Hello, World!
 make update    # upgrade packages and re-pin requirements.txt
 make clean     # delete caches
 make           # list all commands
