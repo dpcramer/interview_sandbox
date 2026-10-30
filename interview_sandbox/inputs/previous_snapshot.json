@@ -1,0 +1,52 @@
+[
+  {
+    "staff_id": "staff_001",
+    "school_id": "indiana",
+    "school_name": "Indiana University",
+    "name": "Taylor Morgan",
+    "title": "Assistant Athletic Director, Compliance",
+    "email": "tmorgan@iu.edu",
+    "phone": "812-555-0101",
+    "source_url": "https://iu.example/staff"
+  },
+  {
+    "staff_id": "staff_002",
+    "school_id": "notre-dame",
+    "school_name": "University of Notre Dame",
+    "name": "Alex Johnson",
+    "title": "Director of Football Operations",
+    "email": "alex.johnson@nd.edu",
+    "phone": "574-555-0140",
+    "source_url": "https://nd.example/staff"
+  },
+  {
+    "staff_id": "staff_003",
+    "school_id": "purdue",
+    "school_name": "Purdue University",
+    "name": "Jordan Lee",
+    "title": "Assistant Strength and Conditioning Coach",
+    "email": "jlee@purdue.edu",
+    "phone": "765-555-0198",
+    "source_url": "https://purdue.example/staff"
+  },
+  {
+    "staff_id": "staff_004",
+    "school_id": "purdue",
+    "school_name": "Purdue University",
+    "name": "Sam Patel",
+    "title": "Sports Dietitian",
+    "email": "spatel@purdue.edu",
+    "phone": null,
+    "source_url": "https://purdue.example/staff"
+  },
+  {
+    "staff_id": "staff_005",
+    "school_id": "purdue",
+    "school_name": "Purdue University",
+    "name": "Avery Brooks",
+    "title": "Assistant Equipment Manager",
+    "email": "abrooks@purdue.edu",
+    "phone": "765-555-0182",
+    "source_url": "https://purdue.example/staff"
+  }
+]

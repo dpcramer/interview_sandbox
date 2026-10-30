@@ -3,10 +3,10 @@ VENV   := default_venv
 BIN    := $(VENV)/bin
 
 .DEFAULT_GOAL := help
-.PHONY: help venv install update test tests lint format run clean
+.PHONY: help venv install update test tests lint format sample-db staff-report clean
 
 help: ## Show available commands
-	@grep -E '^[a-z-]+:.*## ' $(MAKEFILE_LIST) | awk -F':.*## ' '{printf "  make %-8s %s\n", $$1, $$2}'
+	@grep -E '^[a-z-]+:.*## ' $(MAKEFILE_LIST) | awk -F':.*## ' '{printf "  make %-12s %s\n", $$1, $$2}'
 
 $(BIN)/python:
 	$(PYTHON) -m venv $(VENV)
@@ -33,8 +33,11 @@ lint: ## Check code with ruff
 format: ## Format code with ruff
 	$(BIN)/ruff format .
 
-run: ## Run hello world
-	$(BIN)/python -m interview_sandbox.main
+sample-db: ## Build the sample SQLite database at data/sample.db
+	$(BIN)/python -m interview_sandbox.sample_db
+
+staff-report: ## Run the Benchmark staff pipeline and change report
+	$(BIN)/python -m interview_sandbox.pipeline
 
 clean: ## Delete caches (keeps the venv)
 	rm -rf .pytest_cache .ruff_cache

@@ -29,7 +29,9 @@ htmlcov/
 *.db
 *.sqlite
 *.parquet
-data/
+data/*
+# The staff pipeline's database is a deliverable.
+!data/benchmark_staff.db
 
 # Claude Code personal settings
 .claude/settings.local.json

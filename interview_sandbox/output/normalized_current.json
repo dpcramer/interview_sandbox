@@ -1,0 +1,68 @@
+[
+  {
+    "school_id": "indiana",
+    "name": "Taylor Morgan",
+    "title": "Associate Athletic Director, Compliance",
+    "title_raw": "Assoc. AD / Compliance",
+    "email": "tmorgan@iu.edu",
+    "phone": "812-555-0101",
+    "source_provider": "sidearm",
+    "source_url": "https://iu.example/staff",
+    "staff_id": null
+  },
+  {
+    "school_id": "indiana",
+    "name": "Riley Chen",
+    "title": "Assistant Director, Creative Media",
+    "title_raw": "Assistant Director of Creative Media",
+    "email": null,
+    "phone": "812-555-0177",
+    "source_provider": "sidearm",
+    "source_url": "https://iu.example/staff",
+    "staff_id": null
+  },
+  {
+    "school_id": "notre-dame",
+    "name": "Alex Johnson",
+    "title": "Director, Football Operations",
+    "title_raw": "Dir., Football Operations",
+    "email": "alex.johnson@nd.edu",
+    "phone": "574-555-0140",
+    "source_provider": "wmt",
+    "source_url": "https://nd.example/staff/alex-johnson",
+    "staff_id": null
+  },
+  {
+    "school_id": "notre-dame",
+    "name": "Jordan Lee",
+    "title": "Assistant Director, Strength and Conditioning",
+    "title_raw": "Assistant Director - Strength & Conditioning",
+    "email": "jlee@nd.edu",
+    "phone": "765-555-0198",
+    "source_provider": "wmt",
+    "source_url": "https://nd.example/staff/jordan-lee",
+    "staff_id": null
+  },
+  {
+    "school_id": "purdue",
+    "name": "Sam Patel",
+    "title": "Sports Nutritionist",
+    "title_raw": "Sports Nutritionist",
+    "email": "spatel@purdue.edu",
+    "phone": null,
+    "source_provider": "custom",
+    "source_url": null,
+    "staff_id": null
+  },
+  {
+    "school_id": "purdue",
+    "name": "Casey O'Neil",
+    "title": "Assistant Director, Athletic Communications",
+    "title_raw": "Asst. Director, Athletic Communications",
+    "email": "casey.oneil@purdue.edu",
+    "phone": "765-555-0133",
+    "source_provider": "custom",
+    "source_url": null,
+    "staff_id": null
+  }
+]

@@ -1,0 +1,8 @@
+change_type,confidence,staff_id,name,prev_school_id,curr_school_id,prev_title,curr_title,evidence
+addition,high,,Casey O'Neil,,purdue,,"Assistant Director, Athletic Communications",not in previous snapshot
+addition,medium,,Riley Chen,,indiana,,"Assistant Director, Creative Media",not in previous snapshot; no email to confirm identity
+departure,medium,staff_005,Avery Brooks,purdue,,Assistant Equipment Manager,,not on current school page
+likely_transfer,medium,staff_003,Jordan Lee,purdue,notre-dame,Assistant Strength and Conditioning Coach,"Assistant Director, Strength and Conditioning","same name, same phone, same email username"
+position_change,high,staff_004,Sam Patel,purdue,purdue,Sports Dietitian,Sports Nutritionist,"same school, matched on email"
+position_change,high,staff_001,Taylor Morgan,indiana,indiana,"Assistant Athletic Director, Compliance","Associate Athletic Director, Compliance","same school, matched on email"
+unchanged,high,staff_002,Alex Johnson,notre-dame,notre-dame,"Director, Football Operations","Director, Football Operations","same school, matched on email"
