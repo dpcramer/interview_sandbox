@@ -5,7 +5,7 @@ The exercise brief is in [EXERCISE.md](EXERCISE.md). The source files are in [in
 ## Run it
 
 ```bash
-make staff-report    # or: default_venv/bin/python -m interview_sandbox.benchmark_staff.pipeline
+make staff-report    # or: default_venv/bin/python -m interview_sandbox.pipeline
 make test
 ```
 

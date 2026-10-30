@@ -5,7 +5,7 @@ import json
 from html.parser import HTMLParser
 from pathlib import Path
 
-from interview_sandbox.benchmark_staff.normalize import StaffRecord, build_record
+from interview_sandbox.normalize import StaffRecord, build_record
 
 
 def read_sidearm(path: Path) -> list[StaffRecord]:

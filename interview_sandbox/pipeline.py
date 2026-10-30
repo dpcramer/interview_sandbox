@@ -1,4 +1,4 @@
-"""Run the pipeline: python -m interview_sandbox.benchmark_staff.pipeline"""
+"""Run the pipeline: python -m interview_sandbox.pipeline"""
 
 import json
 import sqlite3
@@ -9,8 +9,8 @@ from pathlib import Path
 
 import pandas as pd
 
-from interview_sandbox.benchmark_staff.normalize import SCHOOLS, StaffRecord, validate_records
-from interview_sandbox.benchmark_staff.sources import (
+from interview_sandbox.normalize import SCHOOLS, StaffRecord, validate_records
+from interview_sandbox.sources import (
     read_custom_html,
     read_previous_snapshot,
     read_sidearm,

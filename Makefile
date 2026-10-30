@@ -37,7 +37,7 @@ sample-db: ## Build the sample SQLite database at data/sample.db
 	$(BIN)/python -m interview_sandbox.sample_db
 
 staff-report: ## Run the Benchmark staff pipeline and change report
-	$(BIN)/python -m interview_sandbox.benchmark_staff.pipeline
+	$(BIN)/python -m interview_sandbox.pipeline
 
 clean: ## Delete caches (keeps the venv)
 	rm -rf .pytest_cache .ruff_cache

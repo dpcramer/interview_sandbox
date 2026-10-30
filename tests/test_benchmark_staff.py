@@ -3,7 +3,7 @@ from contextlib import closing
 
 import pytest
 
-from interview_sandbox.benchmark_staff.normalize import (
+from interview_sandbox.normalize import (
     build_record,
     name_key,
     normalize_phone,
@@ -11,7 +11,7 @@ from interview_sandbox.benchmark_staff.normalize import (
     normalize_title,
     validate_records,
 )
-from interview_sandbox.benchmark_staff.pipeline import build_database, change_report, run
+from interview_sandbox.pipeline import build_database, change_report, run
 
 
 @pytest.mark.parametrize(
